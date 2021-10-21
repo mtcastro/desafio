@@ -1,0 +1,31 @@
+
+#user_app
+user_app/node_modules/
+user_app/.env
+user_app/npm-debug.log
+user_app/.nuxt
+user_app/dist
+
+serve_app/vendor/
+serve_app/node_modules/
+serve_app/npm-debug.log
+serve_app/yarn-error.log
+
+# Laravel 4 specific
+serve_app/bootstrap/compiled.php
+serve_app/app/storage/
+
+# Laravel 5 & Lumen specific
+serve_app/public/storage
+serve_app/public/hot
+
+# Laravel 5 & Lumen specific with changed public path
+serve_app/public_html/storage
+serve_app/public_html/hot
+
+storage/*.key
+serve_app/.env
+serve_app/Homestead.yaml
+serve_app/Homestead.json
+serve_app/.vagrant
+serve_app/.phpunit.result.cache
